@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1"
+  },
+  "name": "bootstrap-demo-boilerplate",
+  "description": "A raw setup of Bootstrap with SASS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-bootstrap-style": "sass ./assets/scss/style.scss ./assets/css/style.css --no-source-map --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clickadelic/bootstrap-demo-boilerplate.git"
+  },
+  "author": "Tobias Hopp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clickadelic/bootstrap-demo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Clickadelic/bootstrap-demo-boilerplate#readme"
+}
